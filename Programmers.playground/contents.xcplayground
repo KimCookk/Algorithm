@@ -5,6 +5,8 @@
         <page name='삼총사'/>
         <page name='최소직사각형'/>
         <page name='없는숫자더하기'/>
-        <page name='체육복'/>
+        <page name='체육복'/>
+        <page name='나머지가_1이_되는_수_찾기'/>
+        <page name='소수만들기'/>
     </pages>
 </playground>
