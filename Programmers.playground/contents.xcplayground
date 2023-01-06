@@ -9,6 +9,7 @@
         <page name='나머지가_1이_되는_수_찾기'/>
         <page name='소수만들기'/>
         <page name='부족한_금액_계산하기'/>
-        <page name='모의고사'/>
+        <page name='모의고사'/>
+        <page name='개인정보_수집_유효기간'/>
     </pages>
 </playground>
