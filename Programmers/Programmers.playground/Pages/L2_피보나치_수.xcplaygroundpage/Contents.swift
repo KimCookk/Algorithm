@@ -16,3 +16,13 @@ func solution(_ n:Int) -> Int {
     return result
 }
 
+func getFibonacciNumber(index: Int) -> Int {
+    if(index == 1) {
+        return 1
+    }
+    if(index == 0) {
+        return 0
+    }
+    
+    return getFibonacciNumber(index: index - 2) + getFibonacciNumber(index: index - 1)
+}
