@@ -15,27 +15,25 @@ func solution(_ s:String) -> Int{
             stack.append(alphabet)
         } else {
             let peek = stack[stack.count-1]
-
+            
             if(peek == alphabet) {
                 stack.popLast()
             } else {
                 stack.append(alphabet)
             }
         }
-//        last 방식
-//        if(stack.isEmpty == true) {
-//            stack.append(alphabet)
-//        } else {
-//            if let peek = stack.last {
-//                if(peek == alphabet) {
-//                    stack.popLast()
-//                } else {
-//                    stack.append(alphabet)
-//                }
-//            }
-//        }
+    
         
-
+//        last 방식
+//        if let peek = stack.last {
+//            if(peek == alphabet) {
+//                stack.popLast()
+//            } else {
+//                stack.append(alphabet)
+//            }
+//        } else {
+//            stack.append(alphabet)
+//        }
     }
     
     if(stack.isEmpty == true) {
